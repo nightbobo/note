@@ -25,7 +25,7 @@ CONTAINER ID   IMAGE                          COMMAND                 ... NAMES
 $ docker start docker-airflow_webserver_1
 ``` 
 
-
+airflow test my_python_dag task_1 2021-02-03
 
 
 
