@@ -30,6 +30,11 @@ airflow test my_python_dag task_1 2021-02-03
 
 
 
+
+
+
+
+
 이거하나 찾아보자. 
 $ HOSTIP=`ip -4 addr show scope global dev eth0 | grep inet | awk '{print $2}' | cut -d / -f 1 | sed -n 1p`
 $ docker run  --add-host=docker:${HOSTIP} --rm -it debian
